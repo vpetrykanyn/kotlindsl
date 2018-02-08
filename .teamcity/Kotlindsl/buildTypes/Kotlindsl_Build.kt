@@ -18,6 +18,9 @@ object Kotlindsl_Build : BuildType({
         script {
             scriptContent = "echo KUKU"
         }
+        script {
+            scriptContent = "echo KUKU2"
+        }
     }
 
     triggers {
